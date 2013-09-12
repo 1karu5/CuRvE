@@ -1,6 +1,8 @@
 (function(UNDEFINED){
     var canvas;
 
+
+    // test äüpö
     //socket
     var ws;
     //context for drawing
