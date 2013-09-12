@@ -1,5 +1,14 @@
 (function(UNDEFINED){
     var canvas;
+<<<<<<< HEAD
+    
+	// test merge 2
+	
+=======
+
+    //testmerge
+
+>>>>>>> c66165bdb63e649ffd97b70b055205c3f93141d1
     //socket
     var ws;
     //context for drawing

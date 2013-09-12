@@ -1,5 +1,8 @@
 (function(UNDEFINED){
     var canvas;
+    
+	// test merge 2
+	
     //socket
     var ws;
     //context for drawing

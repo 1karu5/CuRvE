@@ -1,5 +1,6 @@
 (function(UNDEFINED){
     var canvas;
+
     //socket
     var ws;
     //context for drawing
