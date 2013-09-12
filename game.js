@@ -1,6 +1,9 @@
 (function(UNDEFINED){
     var canvas;
+<<<<<<< HEAD
     // test commitkldfhkjlklg
+=======
+>>>>>>> 14623979238ddd6e203aaf5df1f1047840d6fe2c
     //socket
     var ws;
     //context for drawing
