@@ -1,6 +1,6 @@
 (function(UNDEFINED){
     var canvas;
-
+    //klsdhgl
     //socket
     var ws;
     //context for drawing
