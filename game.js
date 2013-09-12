@@ -1,8 +1,6 @@
 (function(UNDEFINED){
     var canvas;
 
-    //testmergekölsdlkg
-
     //socket
     var ws;
     //context for drawing
