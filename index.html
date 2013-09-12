@@ -1,0 +1,18 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            onload = function(){
+                document.getElementsByName("color")[0].value = '#' + parseInt(Math.random() * 1000000);
+            }
+        </script>
+        <form action="game.html">
+            name: <input type="text" name="name">
+            <br>
+            color: <input type="text" name="color" onload="onload">
+            <br>
+            <input type="submit" value="Start">
+        </form>
+    </body>
+</html>
