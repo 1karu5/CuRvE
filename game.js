@@ -1,6 +1,5 @@
 (function(UNDEFINED){
     var canvas;
-    // test commit
     //socket
     var ws;
     //context for drawing
