@@ -148,7 +148,7 @@
             canvas.width = 600;
             canvas.height = 600;
             
-            ws = new WebSocket("ws://192.168.1.21:8888/");
+            ws = new WebSocket("ws://" + document.location.host.split(":")[0] + ":8888");
             ws.onopen = function(){
                 //ws.send("Hello, world");
                 addPlayer(Math.random() * 1000, Math.random() * 1000, 0, 3, params.color || '#' + parseInt(Math.random() * 1000000), params.name || "nonename" + parseInt(Math.random() * 1000000), [38, 40, 37, 39]);
